@@ -3,7 +3,7 @@ import Config
 config :musicdb_rmd, MusicdbRmd.Repo,
   database: "musicdb_rmd",
   username: "postgres",
-  password: "2411",
+  password: "postgres",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
